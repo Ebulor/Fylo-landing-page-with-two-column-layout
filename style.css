@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --gradient: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    --Dark_Blue_testimonials: hsl(219, 30%, 18%);
+    --Dark_Blue_main: hsl(218, 28%, 13%);
+    --Dark_Blue_background: hsl(217, 28%, 15%);
+    --Cyan: hsl(176, 68%, 64%);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--Dark_Blue_main);        
+}
+h1, h2, h3{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-color: var(--Dark_Blue_background);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.logo img{
+    width: 100px;
+}
+header a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.intro{    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    background-color: var(--Dark_Blue_background);
+    background-image: url(images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 40px;        
+}
+.intro-text h1{
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    font-size: 25px;    
+}
+.intro-text a{
+    background-color: var(--Cyan);
+    color: white;    
+    border-radius: 40px;
+    padding: 15px 80px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;;
+}
+.benefit-container{
+    padding: 40px;
+    display: block;    
+    background-color: var(--Dark_Blue_main);
+}
+.box-1, .box-2{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: block;    
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+}
+.box img{    
+    width:  100px;
+    height: 100px;
+    object-fit: contain;        
+}
+.box-text h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: var(--Dark_Blue_main);
+}
+.text{
+    padding-top: 40px;
+    color: white;
+}
+.text h2{
+    font-size: 20px;
+}
+.text p{
+    margin-top: 20px;
+}
+.text a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    width: 170px;
+}
+.text a:hover{
+    color: var(--Cyan);
+    border-bottom: 2px solid var(--Cyan);
+}
+.text i{
+    margin-left: 5px;    
+}
+.card-container{
+    background-color: var(--Dark_Blue_main);
+    background-image: url(images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position-x: 6%;
+    padding-top: 40px;
+    margin-top: 7em;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;    
+}
+.card{
+    background-color: var(--Dark_Blue_testimonials);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    border-radius: 5px;
+    width: 400px;
+    margin-bottom: 40px;    
+}
+.content{
+    padding: 40px;
+}
+.content-top{
+    font-size: 14px;
+}
+.content-bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+.profile-id img{
+    border-radius: 100%;
+    width: 50px;
+}
+.profile-info{
+    margin-left: 20px;
+}
+.profile-info h3{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .2em;
+}
+.profile-info p{
+    font-size: 12px;
+} 
+.footer-feature{
+    background-color: hsl(216, 53%, 9%);
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;    
+    margin-top: 10em;       
+}
+.pop-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: -150px;
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 5px 5px 10px black;
+    color: white;
+    padding: 40px;
+    width: 90%;
+    border-radius: 10px;    
+}
+.pop-up p{
+    margin-top: 10px;
+}
+.pop-up-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;    
+    width: 100%;
+}
+#email{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 0;
+}
+#submit{
+    background: var(--gradient);    
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 40px;
+    font-weight: 700;
+    text-decoration: none;    
+    cursor: pointer;
+}
+#submit:hover{
+    background: var(--Cyan);
+}
+.footer{
+    margin-top: 10em;
+    padding: 30px;
+    display: flex;    
+    flex-direction: column;
+}
+.footer-header img{
+    width: 150px;   
+}
+.row-2{
+    display: flex;
+    flex-direction: column;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.icon{
+    display: flex;
+    padding-bottom: 20px;
+}
+.icon p{
+    font-size: 15px;
+    margin-left: 30px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+.links div:nth-child(2){
+    margin-top: 40px;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.socials{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 20px;    
+}
+.socials p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+ion-icon {
+    font-size: 16px;
+    color: white;
+    border-radius: 100%;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+ion-icon:hover{
+    color: hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
+}
+@media (min-width: 800px){
+    .intro{
+        background-image: url(images/bg-curvy-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;             
+        justify-content: center;
+        align-items: center;
+    }
+    .intro-text{
+        width: 60%;
+        display: block;
+    }
+    .intro-text h1{
+        font-size: 40px;        
+    }    
+    .box-1, .box-2{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;      
+    }
+    .box-2{
+        margin-top: 5em;
+    }
+    .box{
+        width: 30%;
+        padding-bottom: 0;        
+    }    
+    .flex-container{
+        flex-direction: row;        
+    }
+    .text{
+        width: 50%;
+        padding-top: 0px;
+        padding-left: 50px; 
+        justify-content: center;  
+        display: flex;    
+        flex-direction: column;
+    }
+    .text h2{
+        font-size: 30px;
+        width: 60%;
+    }
+    .card-container{
+        flex-direction: row;
+        padding: 80px;
+        padding: 30px 80px 0px 80px;
+        background-position-x: 5%;
+    }
+    .card:nth-child(2){
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .pop-up{
+        width: 60%;
+        top: -100px;
+        padding: 40px 60px 40px 60px;
+        align-items: center;  
+        justify-content: center;
+    }
+    .pop-up-btn{
+        flex-direction: row; 
+        width: 100%;             
+    }
+    #email{
+        width: 60%;
+        padding: 15px 30px;
+    }
+    #submit{
+        width: 40%;
+        padding: 15px 30px;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .row-2{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .footer-icon{
+        flex-direction: row;
+        width: 60%;
+        margin-top: 0;
+    }
+    .icon-container-2{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .icon{
+        padding-top: 0;
+    }
+    .links{
+        width: 25%;
+        flex-direction: row; 
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 5em;
+    }
+    .links div:nth-child(2){
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    .links a{
+        padding-bottom: 1em;
+        padding-right: 40px;
+        justify-content: flex-start;
+    }
+    .socials{
+        padding: 0;
+        width: 25%;
+        align-items: center;
+    }
+    
+}
