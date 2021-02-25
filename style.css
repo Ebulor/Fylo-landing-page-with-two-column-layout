@@ -255,6 +255,9 @@ ion-icon:hover{
     border: 2px solid hsl(300, 69%, 71%);
 }
 @media (min-width: 850px){
+    .logo img{
+        width: 100px;
+    }
     nav a{
         font-size: 18px;
         padding: 0px 20px 0px 20px;
