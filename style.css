@@ -96,7 +96,7 @@ nav a{
     padding: 40px 0px 40px 0px;  
 }
 .testimonial-text h3{
-    font-size: clamp(1rem 3.5vw 3rem);
+    font-size: clamp(1rem, 3.5vw, 3rem);
     font-family: 'Open sans', sans-serif;
 }
 .testimonial-text p{
