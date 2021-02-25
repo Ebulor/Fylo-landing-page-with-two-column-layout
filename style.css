@@ -108,7 +108,8 @@ nav a{
     font-size: 15px;
     color: var(--Moderate_Cyan);
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    Width: 300px;
     border-bottom: 2px solid var(--Moderate_Cyan);
     padding: 40px 0px 0px 0px;
 }
