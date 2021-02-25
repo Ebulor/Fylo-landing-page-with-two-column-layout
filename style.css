@@ -96,7 +96,7 @@ nav a{
     padding: 40px 0px 40px 0px;  
 }
 .testimonial-text h3{
-    font-size: 20px;
+    font-size: clamp(1.7rem 3.5vw 3rem);
     font-family: 'Open sans', sans-serif;
 }
 .testimonial-text p{
@@ -312,7 +312,7 @@ ion-icon:hover{
     }
     .testimonial-text h3{
         font-family: 'Raleway', sans-serif;
-        font-size: 25px;
+        
     }
     .card{
         margin: 0px;
